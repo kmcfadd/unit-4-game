@@ -25,8 +25,8 @@ var jewel4Val = randTotal(1, 12);
 
     // creating a function to dump the values of jewels, random num, and your score after a game reaches its conclusion and reset
 function reset(){
-    totalScore = "";
-    $("#totalScore").empty();
+    totalScore = 0;
+    $("#totalScore").text("0")
     jewel1Val = randTotal(1, 12);
     jewel2Val = randTotal(1, 12);
     jewel3Val = randTotal(1, 12);
@@ -42,7 +42,8 @@ $("#jewel1").click(function(){
     // testing console purposes
     console.log("jewel 1 value is " +jewel1Val)
     console.log("total score is now " + totalScore)
-    // game logic here
+    /**  game logic here, win if matching number values, lose if user score goes over the random chosen number, 
+     alert the outcome, reset values either way */
     if (realScore === targetNum) {
         wins++
         $("#Wins").text("Wins: " +wins)
@@ -125,6 +126,10 @@ $("#jewel4").click(function(){
     } else {
     
     }
+})
+    // bonus joke button
+$("#sonic").click(function(){
+    alert("Gotta go fast!")
 })
 
 }) 

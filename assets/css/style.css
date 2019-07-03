@@ -1,0 +1,52 @@
+.jewel { height: 150px;
+            width: 200px; 
+}
+
+#Wins, #Losses { font-size: 20px;
+                 font-weight: bold;
+}
+
+#scoretext { font-weight: bold;
+                font-size: 18px;
+                text-align: center;
+}
+
+#randomNum { font-size: 36px;
+                text-align: center;
+                padding-top: 15px;
+}
+
+#totalScore { font-size: 24px;
+               text-align: center;
+}
+
+.container { border: 1px solid black;
+            margin: 8px 0;
+}
+
+#sonic {  height: 175px;
+        width: 245px; 
+        
+}
+
+.instructions { margin: 10px 10px;          
+}
+
+h2 { text-align: center;
+    padding: 3px;
+}
+
+#jewelBox { padding: 10px;
+}
+
+#Wins { padding-top: 5px;
+}
+
+#scoretext { padding: 5px;
+}
+
+#totalScore { padding: 5px;
+}
+
+
+
