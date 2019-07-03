@@ -56,4 +56,10 @@ h2 { text-align: center;
 p { font-family: Arial, Helvetica, sans-serif;
 }
 
+@media screen and (max-width: 540px){
+    .jewel { height: 100px;
+                width: 125px;
+}
+}
+
 
