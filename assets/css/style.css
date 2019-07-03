@@ -32,6 +32,11 @@
 .instructions { margin: 10px 10px;          
 }
 
+#directions { padding-left: 50px;
+                padding-right: 15px;
+}
+
+
 h2 { text-align: center;
     padding: 3px;
 }
@@ -39,14 +44,16 @@ h2 { text-align: center;
 #jewelBox { padding: 10px;
 }
 
-#Wins { padding-top: 5px;
+#Wins { padding-top: 7px;
 }
 
 #scoretext { padding: 5px;
 }
 
-#totalScore { padding: 5px;
+#totalScore { padding: px;
 }
 
+p { font-family: Arial, Helvetica, sans-serif;
+}
 
 
