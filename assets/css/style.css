@@ -1,3 +1,8 @@
+body { margin-left: 40px;
+        background-color: blue;
+        background-image: url("../images/greenhillzone.jpg");               
+}
+
 .jewel { height: 150px;
             width: 200px; 
 }
@@ -6,7 +11,7 @@
                  font-weight: bold;
 }
 
-#scoretext { font-weight: bold;
+#scoretext { font-weight: bolder;
                 font-size: 18px;
                 text-align: center;
 }
@@ -14,19 +19,23 @@
 #randomNum { font-size: 36px;
                 text-align: center;
                 padding-top: 15px;
+                font-weight: bolder;
 }
 
 #totalScore { font-size: 24px;
                text-align: center;
+               font-weight: bold;
 }
 
-.container { border: 1px solid black;
+.container { border: 2px solid black;
+            box-shadow: 3px 3px black;
             margin: 8px 0;
+            background-color: lightblue;
+             background:rgba(255,255,255,0.4);
 }
 
 #sonic {  height: 145px;
-        width: 210px; 
-        
+            width: 210px;         
 }
 
 .instructions { margin: 10px 10px;          
@@ -39,12 +48,19 @@
 
 h2 { text-align: center;
     padding: 3px;
+    font-family: 'sonic';
+    margin-top: 10px;
+    background: -webkit-linear-gradient(orange, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
 }
 
 #jewelBox { padding: 10px;
 }
 
 #Wins { padding-top: 7px;
+        font-weight: bold;
 }
 
 #scoretext { padding: 5px;
@@ -54,12 +70,24 @@ h2 { text-align: center;
 }
 
 p { font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    
+}
+
+@font-face {
+    font-family: 'sonic';
+    src: url("../font/NiseSegaSonic.TTF");
 }
 
 @media screen and (max-width: 540px){
     .jewel { height: 100px;
                 width: 125px;
 }
+
+p { font-size: 16px;}
+
+body { margin: 5px; }
 }
 
 
